@@ -1,0 +1,13 @@
+POST http://localhost:3500/auth/register
+Content-Type: "application/json"
+
+{
+    "username" : "hjghgh",
+    "password" : 123
+}
+
+###
+
+GET http://localhost:3500/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTUyMzk4NzcsImV4cCI6MTcxNTI0MDE3N30.RCIpa34nFISB7P54og_cYkH0SrHAKVuOPegicItYqAw
+

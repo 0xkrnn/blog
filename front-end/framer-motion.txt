@@ -1,0 +1,28 @@
+Framer Motion :
+
+    1) motion :
+
+        > If we want to animate anything it should be wrapped with motion
+        > <motion.div> </motion.div>
+        > It will take props as a input
+
+            * animate - it takes an object it conatains end state
+            * initial - it contains initial state
+            * transition - {
+                delay 
+            }
+
+        > properties
+
+            * x
+            * y
+            * rotate
+            * delay
+
+    2) Integrating with state:
+
+        const [rotate,setRotate] = React.useState(false)
+
+         <motion.div animate = {{
+            rotate : rotate ? 360 : 0
+        }}>
